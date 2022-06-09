@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$normal-text-color: #252525;
+$normal-bg-color: #FFFFFF;
+$subtitle-color: #2f9ee9;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif!important;
+}
+.header-wrapper {
+    padding: 50px 0;
+    background-color: $normal-bg-color;
+
+    .title {
+       text-align: center;
+       h1 {
+        font-size: 60px;
+        font-weight: 800;
+        color: $normal-text-color;
+       }
+       h2 {
+        color: $subtitle-color;
+        font-weight: 400;
+        font-size: 35px;
+       }
+    }
+
+    .service-wrapper {
+        .card-main {
+            width: 170px;
+            border: 3px solid transparent;
+            border-radius: 6px;
+            text-align: center;
+            padding: 10px;
+            &:hover{
+                border: 3px solid $subtitle-color;
+                p {
+                    color: $subtitle-color;
+                }
+            }
+            p {
+                color: $normal-text-color;
+                font-weight: 800;
+                font-size: 18px; 
+                margin-top: 05px;
+            }
+            a {
+                text-decoration: none;
+            }
+        }
+        
+        img {
+            max-width: 85px;
+        }
+    }    
+}
