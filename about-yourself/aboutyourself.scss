@@ -1,1 +1,129 @@
 @import '../common-styles/all.scss';
+
+#wrapper {
+    overflow-x: hidden;
+    .check-icon {
+        color: $title-span-color;
+    }
+    .bg-color{
+        background-color: $normal-text-color!important;
+        color: $normal-bg-color!important;
+    }
+    .d-between-center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .logo {
+        color: $title-span-color;
+        font-weight: 700;
+    }
+    .title {
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    .profile-container {
+        width: 300px;
+        border-radius: .7em;
+        h5, i {
+            color: $title-span-color;
+            font-weight: 700;
+        }
+        i {
+            font-size: 22px;
+        }
+    }
+    form {
+        input {
+            width: 100%;
+            padding: 12px 18px;
+            border: 0;
+            border-radius: 1.5em;
+            margin: 20px 0;
+            font-weight: 500;
+            &:focus {
+                outline: 0;
+                background-color: $normal-bg-color;
+            }
+            &:active {
+                background-color: $normal-bg-color;
+            }
+        }
+    }
+
+    .button {
+        padding: 7px 40px;
+        border: 0;
+        border-radius: 1em;
+        font-weight: 500;
+    }
+    .btn-green {
+        @extend .button;
+        background-color: $title-span-color;
+        color: $normal-bg-color;
+    }
+    .btn-black {
+        @extend .button;
+        background-color: $normal-text-color;
+        color: $normal-bg-color;
+    }
+    .birth-day-wrapper {
+        position: relative;
+        label {
+            position: absolute; 
+            right: 30px; 
+            bottom: 35px; 
+            cursor: pointer;
+            i {
+                color: rgb(197, 196, 196);
+            }
+        }
+    }
+    .common-label {
+        font-weight: 500;
+        color: gray;
+    }
+    
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    //margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 478px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}

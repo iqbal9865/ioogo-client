@@ -9,4 +9,164 @@
 body {
   font-family: "Raleway", sans-serif !important;
 }
+
+input {
+  width: 100%;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 1.5em;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+input:focus {
+  outline: 0;
+  background-color: #FFFFFF;
+}
+
+input:active {
+  background-color: #FFFFFF;
+}
+
+#wrapper {
+  overflow-x: hidden;
+}
+
+#wrapper .check-icon {
+  color: #70A41D;
+}
+
+#wrapper .bg-color {
+  background-color: #252525 !important;
+  color: #FFFFFF !important;
+}
+
+#wrapper .d-between-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#wrapper .logo {
+  color: #70A41D;
+  font-weight: 700;
+}
+
+#wrapper .title {
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+#wrapper .profile-container {
+  width: 300px;
+  border-radius: .7em;
+}
+
+#wrapper .profile-container h5, #wrapper .profile-container i {
+  color: #70A41D;
+  font-weight: 700;
+}
+
+#wrapper .profile-container i {
+  font-size: 22px;
+}
+
+#wrapper form input {
+  width: 100%;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 1.5em;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+#wrapper form input:focus {
+  outline: 0;
+  background-color: #FFFFFF;
+}
+
+#wrapper form input:active {
+  background-color: #FFFFFF;
+}
+
+#wrapper .button, #wrapper .btn-green, #wrapper .btn-black {
+  padding: 7px 40px;
+  border: 0;
+  border-radius: 1em;
+  font-weight: 500;
+}
+
+#wrapper .btn-green {
+  background-color: #70A41D;
+  color: #FFFFFF;
+}
+
+#wrapper .btn-black {
+  background-color: #252525;
+  color: #FFFFFF;
+}
+
+#wrapper .birth-day-wrapper {
+  position: relative;
+}
+
+#wrapper .birth-day-wrapper label {
+  position: absolute;
+  right: 30px;
+  bottom: 35px;
+  cursor: pointer;
+}
+
+#wrapper .birth-day-wrapper label i {
+  color: #c5c4c4;
+}
+
+#wrapper .common-label {
+  font-weight: 500;
+  color: gray;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  -webkit-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 478px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+  body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
 /*# sourceMappingURL=aboutyourself.css.map */

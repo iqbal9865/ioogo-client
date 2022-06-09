@@ -2,3 +2,4 @@
 ### Using Technology For Designing Client Side
 1. SASS/SCSS
 2. Bootstrap 5.0.2
+3. Font Awesome with Personal kit
