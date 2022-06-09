@@ -1,18 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-$normal-text-color: #252525;
-$normal-bg-color: #FFFFFF;
-$subtitle-color: #2f9ee9;
-$title-span-color: #70A41D;
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: 'Raleway', sans-serif!important;
-}
+@import '../common-styles/all.scss';
 
 .login-wrapper {
     padding: 45px 0;
@@ -41,15 +27,14 @@ body {
         padding: 10px 50px;
     }
     .form-wrapper {
-        
-        input {
-            margin: 20px 0;
-        }
+        text-align: center;
         input {
             width: 100%;
-            padding: 6px;
+            padding: 12px 18px;
             border: 0;
-            border-bottom: 1px solid $title-span-color;
+            border-radius: 1.5em;
+            margin: 20px 0;
+            font-weight: 500;
             &:focus {
                 outline: 0;
                 background-color: $normal-bg-color;
@@ -62,8 +47,9 @@ body {
             width: 5%;
         }
         input:last-child {
+            width: 50%;
             border-bottom: 0;
-            background-color: $title-span-color;
+            background-color: $normal-text-color;
             color: $normal-bg-color;
             font-size: 17px;
             font-weight: 500;
