@@ -9,4 +9,21 @@
 body {
   font-family: "Raleway", sans-serif !important;
 }
+
+.button, .btn-green, .btn-black {
+  padding: 7px 40px;
+  border: 0;
+  border-radius: 1em;
+  font-weight: 500;
+}
+
+.btn-green {
+  background-color: #70A41D;
+  color: #FFFFFF;
+}
+
+.btn-black {
+  background-color: #252525;
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=all.css.map */

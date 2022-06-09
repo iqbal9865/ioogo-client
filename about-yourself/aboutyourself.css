@@ -10,22 +10,21 @@ body {
   font-family: "Raleway", sans-serif !important;
 }
 
-input {
-  width: 100%;
-  padding: 12px 18px;
+.button, .btn-green, .btn-black {
+  padding: 7px 40px;
   border: 0;
-  border-radius: 1.5em;
-  margin: 20px 0;
+  border-radius: 1em;
   font-weight: 500;
 }
 
-input:focus {
-  outline: 0;
-  background-color: #FFFFFF;
+.btn-green {
+  background-color: #70A41D;
+  color: #FFFFFF;
 }
 
-input:active {
-  background-color: #FFFFFF;
+.btn-black {
+  background-color: #252525;
+  color: #FFFFFF;
 }
 
 #wrapper {
@@ -95,23 +94,6 @@ input:active {
 
 #wrapper form input:active {
   background-color: #FFFFFF;
-}
-
-#wrapper .button, #wrapper .btn-green, #wrapper .btn-black {
-  padding: 7px 40px;
-  border: 0;
-  border-radius: 1em;
-  font-weight: 500;
-}
-
-#wrapper .btn-green {
-  background-color: #70A41D;
-  color: #FFFFFF;
-}
-
-#wrapper .btn-black {
-  background-color: #252525;
-  color: #FFFFFF;
 }
 
 #wrapper .birth-day-wrapper {
