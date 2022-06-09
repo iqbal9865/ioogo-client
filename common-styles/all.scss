@@ -13,18 +13,3 @@ $title-span-color: #70A41D;
 body {
     font-family: 'Raleway', sans-serif!important;
 }
-input {
-    width: 100%;
-    padding: 12px 18px;
-    border: 0;
-    border-radius: 1.5em;
-    margin: 20px 0;
-    font-weight: 500;
-    &:focus {
-        outline: 0;
-        background-color: $normal-bg-color;
-    }
-    &:active {
-        background-color: $normal-bg-color;
-    }
-}

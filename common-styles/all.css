@@ -9,22 +9,4 @@
 body {
   font-family: "Raleway", sans-serif !important;
 }
-
-input {
-  width: 100%;
-  padding: 12px 18px;
-  border: 0;
-  border-radius: 1.5em;
-  margin: 20px 0;
-  font-weight: 500;
-}
-
-input:focus {
-  outline: 0;
-  background-color: #FFFFFF;
-}
-
-input:active {
-  background-color: #FFFFFF;
-}
 /*# sourceMappingURL=all.css.map */

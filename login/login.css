@@ -10,24 +10,6 @@ body {
   font-family: "Raleway", sans-serif !important;
 }
 
-input {
-  width: 100%;
-  padding: 12px 18px;
-  border: 0;
-  border-radius: 1.5em;
-  margin: 20px 0;
-  font-weight: 500;
-}
-
-input:focus {
-  outline: 0;
-  background-color: #FFFFFF;
-}
-
-input:active {
-  background-color: #FFFFFF;
-}
-
 .login-wrapper {
   padding: 45px 0;
   display: -ms-grid;
@@ -66,7 +48,21 @@ input:active {
 }
 
 .login-wrapper .form-wrapper input {
+  width: 100%;
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 1.5em;
   margin: 20px 0;
+  font-weight: 500;
+}
+
+.login-wrapper .form-wrapper input:focus {
+  outline: 0;
+  background-color: #FFFFFF;
+}
+
+.login-wrapper .form-wrapper input:active {
+  background-color: #FFFFFF;
 }
 
 .login-wrapper .form-wrapper input[type="checkbox"] {
